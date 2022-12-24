@@ -20,6 +20,21 @@
     <sonar.login>4f364ab552754ebbf94b55472065a0eac76b6ef0</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>simple-java-maven-app Releases Nexus Repository</name>
+	      <url>http://localhost:9980/bluewash/repository/simple-java-maven-app-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>simple-java-maven-app Snapshot Nexus Repository </name>
+	      <url>http://localhost:9980/bluewash/repository/simple-java-maven-app-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     <build>
     <pluginManagement>
       <plugins>
