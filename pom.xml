@@ -20,7 +20,7 @@
     <sonar.login>4f364ab552754ebbf94b55472065a0eac76b6ef0</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <distributionManagement>
+       <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
