@@ -20,6 +20,18 @@
     <sonar.login>4f364ab552754ebbf94b55472065a0eac76b6ef0</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+		  <repository>
+	      <id>nexus</id>
+	      <name>Releases Nexus Repository</name>
+	      <url>http://localhost:9980/bluewash/repository/maven-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://localhost:9980/bluewash/repository/maven-snapshots/</url>
+	    </snapshotRepository>	    
+	</distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
