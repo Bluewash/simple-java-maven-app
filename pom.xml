@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <sonar.host.url>http://172.31.204.205:9000/</sonar.host.url>
+    <sonar.host.url>http://localhost:9000/</sonar.host.url>
     <sonar.login>07ef05695e5b74ceaf22b9339f9a21caa9186055</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
